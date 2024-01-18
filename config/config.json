@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "list-multilevel-group-view-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listMultilevelGroupView/ListMultilevelGroupViewWebPart.js",
+          "manifest": "./src/webparts/listMultilevelGroupView/ListMultilevelGroupViewWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ListMultilevelGroupViewWebPartStrings": "lib/webparts/listMultilevelGroupView/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

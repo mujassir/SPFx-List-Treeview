@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "COA List View Components",
+    "id": "e758cc02-7f02-4f71-b439-2e84546892a6",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ListViewComponents description"
+      },
+      "longDescription": {
+        "default": "ListViewComponents description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "list-view-components Feature",
+        "description": "The feature that activates elements of the list-view-components solution.",
+        "id": "820d1cf8-458d-4e02-a106-a2e4fcbf84dc",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/coa-list-view-components.sppkg"
+  }
+}
